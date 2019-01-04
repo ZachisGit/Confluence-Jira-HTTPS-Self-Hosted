@@ -90,7 +90,7 @@ Jira:
  
 
 ### Edit Server Config - Confluence
-`CONFLUENCE_INSTALL` by default is set to '/opt/atlassian/confluence/'
+`<CONFLUENCE_INSTALL>` by default is set to `/opt/atlassian/confluence/`
 
 Create a backup of `<CONFLUENCE_INSTALL>/conf/server.xml` before editing it.  Edit the HTTP connector so that it redirects to the HTTPS connector (copy it exactly like this):
 
