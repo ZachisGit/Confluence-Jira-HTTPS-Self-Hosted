@@ -54,7 +54,7 @@ I did this on an Ubuntu 16.04 machine.  I used the OpenJDK 8 for my Java install
 
 <b>Create a PKCS12 that contains both your full chain and the private key (IMPORTANT: leave the password empty)</b>
 
-Note: -in and -inkey parameters are different
+<i/>Note: -in and -inkey are different parameters.</i>
 
 Confluence:
 
