@@ -180,6 +180,7 @@ Restart JIRA after you have saved your changes as follows:
 
 See https://confluence.atlassian.com/adminjiraserver/running-jira-applications-over-ssl-or-https-938847764.html#RunningJIRAapplicationsoverSSLorHTTPS-commandline for Troubleshooting tips
 
+### Certificate Renewal
 Make sure to setup a cronjob that runs every 89 days to update the Letsencrypt certificate.
 
     $ sudo certbot renew
