@@ -94,7 +94,7 @@ Jira:
 
 Create a backup of `<CONFLUENCE_INSTALL>/conf/server.xml` before editing it.  Edit the HTTP connector so that it redirects to the HTTPS connector (copy it exactly like this):
 
-    <Connector acceptCount="100" connectionTimeout="20000" disableUploadTimeout="true" enableLookups="false" maxHttpHeaderSize="8192" maxThreads="150" minSpareThreads="25" port="8080" protocol="HTTP/1.1" redirectPort="8443" useBodyEncodingForURI="true"/>
+    <Connector acceptCount="100" connectionTimeout="20000" disableUploadTimeout="true" enableLookups="false" maxHttpHeaderSize="8192" maxThreads="150" minSpareThreads="25" port="8090" protocol="HTTP/1.1" redirectPort="8443" useBodyEncodingForURI="true"/>
 
 Edit or <b>Create</b> the HTTPS connector so that it has the parameters that point to the KeyStore (copy it exactly like this):
 
