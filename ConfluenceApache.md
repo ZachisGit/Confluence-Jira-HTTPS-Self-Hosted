@@ -1,6 +1,8 @@
 # Confluence-Jira-HTTPS-Self-Hosted
 
-UPDATED VERSION OF THIS: https://gist.github.com/dborin/dd501b28967d3784fa646534dbea6ffa#file-jira_letsencrypt-md
+<i>References: </i><br>
+    https://gist.github.com/dborin/dd501b28967d3784fa646534dbea6ffa#file-jira_letsencrypt-md
+    https://confluence.atlassian.com/kb/securing-your-atlassian-applications-with-apache-using-ssl-838284349.html#
 
 HOWTO Configure Atlassian Confluence to use Letsencrypt certificate with apache proxy
 -----------------------------
