@@ -1,3 +1,9 @@
+# IMPORTANT
+**Apache Proxy Alternative:** I suggest you go the apache proxy way instead of using the javakeystore to embed the certificate, you just proxy your https connection through apache:
+[ConfluenceApache.md](ConfluenceApache.md)
+
+    If you don't go the apache way you have to redo this whole process every month when your letsencrypt cert runs out!
+
 # Confluence-Jira-HTTPS-Self-Hosted
 
 UPDATED VERSION OF THIS: https://gist.github.com/dborin/dd501b28967d3784fa646534dbea6ffa#file-jira_letsencrypt-md
